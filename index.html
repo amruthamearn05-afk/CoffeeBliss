@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Bliss</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header id="header">
+  <nav class="navbar">
+    <div class="logo">
+        <img src="./imgs/coffsh-removebg-preview.png" alt="Coffee Bliss Logo" class="logo-img">Coffee Bliss
+    </div>
+    <input type="checkbox" id="check" >
+        <label for="check" class="icons">
+            <i id="dots" class="fa-solid fa-bars"></i>
+            <i id="close" class="fa-solid fa-xmark"></i>
+        </label>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Welcome to Coffee Bliss</h1>
+    <p>Your daily dose of happiness in a cup</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container about-content">
+    <div class="about-image">
+      <img src="./imgs/about.jpg" alt="Cozy coffee shop interior">
+    </div>
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>At Coffee Bliss, we craft every cup with love using ethically sourced beans. Our cozy and welcoming space invites you to relax, connect, and savor the moment.</p>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="container">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <img src="./imgs/espr.avif" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Rich and bold – $3.50</p>
+      </div>
+      <div class="item">
+        <img src="./imgs/cappu.avif" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Creamy and smooth – $4.20</p>
+      </div>
+      <div class="item">
+        <img src="./imgs/latte.jpg" alt="Latte">
+        <h3>Latte</h3>
+        <p>Velvety and rich – $4.20</p>
+      </div> 
+    </div>
+</section>
+<section class="contact" id="contact"> 
+    <div class="container"> <h2>Contact Us</h2> 
+        <form> 
+            <input type="text" placeholder="Your Name" required /> 
+            <input type="email" placeholder="Your Email" required /> 
+            <textarea placeholder="Your Message" required></textarea> 
+            <button type="submit">Send Message</button> 
+        </form> 
+    </div>
+</section>
+<div class="icon upArrow">
+    <a href="#home"><i class="fa-solid fa-angle-up brands"></i></a>
+</div>        
+<footer> 
+    <p>&copy; 2025 Coffee Bliss. All rights reserved.</p> 
+</footer>
+</body>
+</html>
